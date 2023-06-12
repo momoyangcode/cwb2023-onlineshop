@@ -4,7 +4,7 @@
 .first-line-header {
   justify-content: space-between;
   padding: 1rem 13rem 0 13rem;
-  border-bottom: 0.1rem solid black;
+  border-bottom: 0.1rem solid rgb(231, 226, 226);
 }
 
 .logo-img {
@@ -131,100 +131,15 @@
 
 .certification-box {
   margin: 5rem 30rem;
-  overflow: hidden;
 }
 
 .certification img {
   width: 100%;
 }
 
-.horizontal-scrolling-banner {
-  overflow: hidden;
-}
-
-.horizontal-scrolling-banner__helper-wrapper {
-  align-items: center;
-  display: flex;
-  left: 0;
-  transform: translateZ(0);
-  transition-property: left;
-  transition-timing-function: linear;
-}
-
 /**************************/
-/* FO0TER */
+/* CopyRight */
 /**************************/
-
-.footer-box {
-  padding: 5rem 14rem 2rem 14rem;
-}
-
-.footer-box,
-.footer-link-box,
-.footer-links,
-.newspaper {
-  flex-direction: column;
-}
-
-.newspaper {
-  gap: 2.2rem;
-  align-items: flex-start;
-  margin-right: 5rem;
-  justify-content: center;
-}
-.newspaper span {
-  font-size: 1.6rem;
-}
-
-.subscribe-form {
-  flex-direction: column;
-}
-
-.subscribe-form input {
-  width: 100%;
-  padding: 0.6rem;
-  font-size: 1.8rem;
-  border-radius: 9px;
-  box-shadow: 0 1px 2px rgb(0 0 0 / 10%);
-  margin-bottom: 1rem;
-}
-
-.subscribe-form input::placeholder {
-  color: #aaa;
-}
-
-.sub-btn {
-  width: 50%;
-  padding: 0.6rem;
-  font-size: 1.5rem;
-  border-radius: 15px;
-  background-color: #b6e45d;
-  align-self: center;
-}
-
-.footer-title {
-  font-size: 2.4rem;
-}
-
-.footer-links-box {
-  margin: 0 auto;
-  align-items: center;
-}
-
-.footer-link-box {
-  gap: 2rem;
-  align-items: center;
-}
-
-.footer-links {
-  gap: 1.8rem;
-  font-size: 1.6rem;
-}
-
-.footer-link-text:hover,
-.footer-link-text:active {
-  opacity: 0.5;
-}
 
 .copyright-box {
   margin-top: 5rem;
